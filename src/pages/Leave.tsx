@@ -40,18 +40,7 @@ const Leave = () => {
             <p className="text-muted-foreground mt-2">Request and manage your leave</p>
           </div>
 
-          <Card className="w-full md:w-64 shadow-strong overflow-hidden bg-gradient-primary">
-            <CardHeader className="pb-3">
-              <CardTitle className="text-sm font-medium flex items-center gap-2 text-primary-foreground">
-                <Calendar className="h-4 w-4" />
-                Leave Balance
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-3xl font-bold text-primary-foreground">{leaveBalance} days</div>
-              <p className="text-xs text-primary-foreground/80 mt-1">Available to use</p>
-            </CardContent>
-          </Card>
+         
         </div>
 
         <Tabs defaultValue={role === 'admin' ? "types" : "request"} className="w-full">

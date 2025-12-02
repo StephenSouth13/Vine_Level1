@@ -228,7 +228,7 @@ const UsersManagement = () => {
                     <TableHead>Email</TableHead>
                     <TableHead>Role</TableHead>
                     <TableHead>Status</TableHead>
-                    <TableHead>Leave Balance</TableHead>
+                   
                   </TableRow>
                 </TableHeader>
                 <TableBody>
